@@ -6,18 +6,15 @@ let handler = async (m, { conn, args }) => {
     let uptime = clockString(_uptime)
     let totalreg = Object.keys(global.db.data.users).length
     let totalCommands = Object.values(global.plugins).filter((v) => v.help && v.tags).length
-    
+
     let txt = `
-Hola! Soy  *${botname}*  ٩(˘◡˘)۶
-Aquí tienes la lista de comandos
+Hola! @${userId.split('@')[0]} Soy  *${botname}*  
+ᴀǫᴜɪ ᴛɪᴇɴᴇs ʟᴀ ʟɪsᴛᴀ ᴅᴇ ᴄᴏᴍᴀɴᴅᴏs
 ╭┈ ↷
-│ᰔᩚ Cliente » @${userId.split('@')[0]}
-│❀ Modo » Publico
-│✦ Bot » ${(conn.user.jid == global.conn.user.jid ? 'Principal 🅥' : 'Prem Bot 🅑')}
-│ⴵ Activada » ${uptime}
-│✰ Usuarios » ${totalreg}
-│✧ Comandos » ${totalCommands}
-│🜸 Baileys » Multi Device
+│ ✐ 𝓓𝓮𝓿𝓮𝓵𝓸𝓹𝓮𝓭 𝓫𝔂 ༆ᴺᵉˣᵘˢ乂club숬 ❤️
+│ ✐ ꒷ꕤ💎ദ ᴄᴀɴᴀʟ ᴏғɪᴄɪᴀʟ
+│https://whatsapp.com/channel/0029Vaz6RTR0LKZIKwudX32x
+│✦ Bot » ${(conn.user.jid == global.conn.user.jid ? 'Owner/Principal 🅥' : 'Sub Bot 🅑')}
 ╰─────────────────
 Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 
@@ -27,17 +24,13 @@ Crea un *Sub-Bot* con tu número utilizando *#qr* o *#code*
 ᰔᩚ *#help • #menu*
 > ✦ Ver la lista de comandos de la Bot.
 ᰔᩚ *#uptime • #runtime*
-> ✦ Ver tiempo activo o en linea de la Bot.
-ᰔᩚ *#sc • #script*
-> ✦ Link del repositorio oficial de la Bot
-ᰔᩚ *#staff • #colaboradores*
+> ✦ Ver tiempo activo o en linea de la Bot
+ᰔᩚ *#staff*
 > ✦ Ver la lista de desarrolladores de la Bot.
-ᰔᩚ *#serbot • #serbot code*
+ᰔᩚ *#qr • #code*
 > ✦ Crea una sesión de Sub-Bot.
 ᰔᩚ *#bots • #sockets*
 > ✦ Ver la lista de Sub-Bots activos.
-ᰔᩚ *#creador*
-> ✦ Contacto del creador de la Bot.
 ᰔᩚ *#status • #estado*
 > ✦ Ver el estado actual de la Bot.
 ᰔᩚ *#links • #grupos*
