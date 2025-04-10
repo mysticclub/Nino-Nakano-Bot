@@ -1,6 +1,6 @@
-<h1 align="center">✦ Yυƙι-Sυσυ-Bσƚ ✦</h1>
+<h1 align="center">✦ Nino Nakano ✦</h1>
 
- <img src= "https://files.catbox.moe/om9jai.jpg">
+ <img src= "https://qu.ax/akVUm.jpg">
     </p>
 
 ### **`❕️ Información importante`**
@@ -55,7 +55,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/The-King-Destroy/Yuki_Suou-Bot && cd Yuki_Suou-Bot
+git clone https://github.com/mysticclub/Nino-Nakano-MF
 ```
 
 ```bash
@@ -81,13 +81,13 @@ npm start
 > Si después de instalar el bot en Termux se detiene (pantalla en blanco, pérdida de conexión a Internet, reinicio del dispositivo), sigue estos pasos:
 
 ❒ Abre Termux y navega al directorio del bot:
-   
+
    ```bash
-    cd Yuki_Suou-Bot
+    cd Nino-Nakano-MF
    ```
 
 ❒ Inicia el bot nuevamente:
-  
+
    ```bash
     npm start
    ```
@@ -97,7 +97,7 @@ npm start
 > Si después de instalar el bot en Termux y iniciar la session del bot (deseas poner tu número es la lista de owner pon este comando:
 
    ```bash
-    cd Yuki_Suou-Bot && nano settings.js
+    cd Nino-Nakano-MF && nano settings.js
    ```
 
 </details>
@@ -108,16 +108,15 @@ npm start
 <details>
  <summary><b> 🜸 Enlaces Oficiales </b></summary>
 
- * Canal Oficial  [`¡Click aquí!`](https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T)
-* Grupo Oficial [`¡Click aquí!`](https://chat.whatsapp.com/Ecz881bBgqPIWjDOaKkp7E)
-* Comunidad Oficial [`¡Click aquí!`](https://chat.whatsapp.com/EwrwcGvpLf1BnMhP3B4axD)
+ * Canal Oficial  [`¡Click aquí!`](https://whatsapp.com/channel/0029Vaz6RTR0LKZIKwudX32x)
+* Grupo Oficial [`¡Click aquí!`](https://chat.whatsapp.com/DBkDuboKpLT5ffA7kRZckY)
 </details>
 
 <details>
 <summary><b> ✰ Contáctos</b></summary>
 
-* WhatsApp: [`Aquí`](https:/Wa.me/584120346669)
-* Correo: [`Aquí`](thekingdestroy507@gmail.com)
+* WhatsApp: [`Aquí`](https:/Wa.me/51920227615)
+* Correo: [`Aquí`](seishironagi.rukasproyect@gmail.com)
 
 </details>
 
