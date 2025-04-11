@@ -28,7 +28,7 @@ global.owner = [
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.mods = []
+global.mods = ['51935716466'] waos vence 10 de mayo
 global.suittag = ['51920227615'] 
 global.prems = []
 
