@@ -12,9 +12,11 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 💬 Mensaje:
 • ${text}`
-    await conn.reply(`${suittag}@s.whatsapp.net`, m.quoted ? teks + m.quoted.text : teks, m, { mentions: conn.parseMention(teks) })
 
-    m.reply(`${emoji} El reporte se envío a mi creador, cualquier informe falso puede ocasionar baneo.`)
+    await conn.reply(`${suittag}@s.whatsapp.net`, m.quoted ? teks + m.quoted.text : teks, m, { mentions: conn.parseMention(teks) })
+    await conn.reply('120363400310993856@g.us', m.quoted ? teks + m.quoted.text : teks, m, { mentions: conn.parseMention(teks) })
+
+    m.reply(`${emoji} El reporte se envió a mi creador y al grupo correspondiente, cualquier informe falso puede ocasionar baneo.`)
 }
 handler.help = ['reportar']
 handler.tags = ['info']
