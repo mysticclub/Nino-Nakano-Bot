@@ -77,7 +77,7 @@ global.db.data.users[m.sender].Subs = new Date * 1
 handler.help = ['qrp', 'codep']
 handler.tags = ['serbot']
 handler.command = ['qrprem', 'codeprem']
-handler.prem = true;
+handler.premium = true;
 export default handler 
 
 export async function yukiJadiBot(options) {
