@@ -71,7 +71,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 
 const fetchAPI = async (url, type) => {
     const fallbackEndpoints = {
-      audio: 'https://p.oceansaver.in/ajax/download.php?format=${format}&url=${encodeURIComponent(url)}&api=dfcb6d76f2f6a9894gjkege8a4ab232222`,
+      audio: 'https://p.oceansaver.in/ajax/download.php?format=${format}&url=${encodeURIComponent(url)}&api=dfcb6d76f2f6a9894gjkege8a4ab232222` ,
       video: `https://api.neoxr.eu/api/youtube?url=${url}&type=video&quality=720p&apikey=Paimon`,
     }
     const response = await fetch(fallbackEndpoints[type])
